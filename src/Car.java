@@ -1,9 +1,18 @@
+import java.util.ArrayList;
+
 public class Car {
 
     private String brand;
     private String model;
     private String color;
     private int year;
+
+    public Car() {
+        this.setBrand("");
+        this.setModel("");
+        this.setColor("");
+        this.setYear(0);
+    }
 
     public Car(String brand, String model, String color, int year) {
         this.setBrand(brand);
