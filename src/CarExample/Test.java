@@ -1,3 +1,5 @@
+package CarExample;
+
 import java.util.Scanner;
 
 public class Test {

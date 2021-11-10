@@ -1,3 +1,5 @@
+package CarExample;
+
 public class Car {
 
     private String brand;
